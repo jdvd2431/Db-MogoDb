@@ -1,0 +1,19 @@
+Comando usados para la creacion de la base de datos y su implementacion.
+
+//Creacion
+use Campeonato_Bogota
+
+//Creacion de conlecciones
+db.createColletion('Deportistas');
+db.createColletion('Arbitros');
+db.createColletion('Encuentros');
+db.createColletion('Entrenadores');
+db.createColletion('Resultado_pocisiones');
+
+//Creacion de inserts para Despotistas Hombres
+db.Deportistas.insertMany(Json)
+db.Encuentros.insertMany(Json)
+db.Arbitros.insertMany(Json)
+db.Entrenadores.insertMany(Json)
+db.Resultado_pocisiones.insertMany(Json)
+  
